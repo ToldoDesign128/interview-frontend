@@ -1,8 +1,13 @@
-#app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-	margin-top: 60px;
-}
+// Style file for import scss modules
+
+@import 'scss-parts/start';
+
+// Varibale
+@import 'scss-parts/variable/color';
+@import 'scss-parts/variable/typography';
+
+// Utilities
+@import 'scss-parts/utilities/layout';
+@import 'scss-parts/utilities/helpers';
+
+// Block
