@@ -1,16 +1,17 @@
 // Style file for import scss modules in style.scss
 
-@use 'scss-parts/starter/reset';
+@import 'scss-parts/starter/reset';
 
 // Varibale
-@use 'scss-parts/variable/color';
-@use 'scss-parts/variable/typography';
+@import 'scss-parts/variable/color';
+@import 'scss-parts/variable/typography';
 
 // Starter
-@use 'scss-parts/starter/start';
+@import 'scss-parts/starter/start';
 
 // Utilities
-@use 'scss-parts/utilities/layout';
-@use 'scss-parts/utilities/helpers';
+@import 'scss-parts/utilities/layout';
+@import 'scss-parts/utilities/helpers';
 
 // Block
+@import 'scss-parts/block/app';
