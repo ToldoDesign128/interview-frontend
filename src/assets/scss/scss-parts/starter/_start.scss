@@ -1,0 +1,10 @@
+// _start.scss
+@import '/src/assets/scss/scss-parts/variable/color';
+@import '/src/assets/scss/scss-parts/variable/typography';
+
+html {
+    background-color: $primary-color;
+    font-family: $primary-font;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
