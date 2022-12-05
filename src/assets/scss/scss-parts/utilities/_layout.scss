@@ -1,7 +1,14 @@
 // _layout.scss
 
 .container{
-    display: flex;
     max-width: 1200px;
     margin: auto;
 }
+.line{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{flex-grow: 1;}
+.col-2{flex-grow: 2;}
+.col-3{flex-grow: 3;}
+.col-4{flex-grow: 4;}
