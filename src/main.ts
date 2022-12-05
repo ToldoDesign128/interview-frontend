@@ -1,10 +1,7 @@
-import './assets/scss/style.scss'
+import { createApp } from 'vue';
+import App from "./App.vue";
 
-const app = document.querySelector<HTMLDivElement>('#app')
+import './assets/scss/style.scss';
 
-if (app) {
-	app.innerHTML = `
-        <h1>Hello 24/Consulting!</h1>
-        <a href="https://github.com/24Consulting/interview-frontend" target="_blank">Github Repository</a>
-    `
-}
+const app = createApp(App);
+app.mount("#app");
