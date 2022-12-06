@@ -4,7 +4,7 @@
 
 <template>
     <div class="todogroup">
-        <div class="line">
+        <div class="line mt-1">
             <h4 class="col-1 py-3">Cose da fare...</h4>
         </div>
         <ul class="mt-5">
